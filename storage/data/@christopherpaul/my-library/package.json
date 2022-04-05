@@ -1,0 +1,197 @@
+{
+	"name": "@christopherpaul/my-library",
+	"versions": {
+		"0.0.1": {
+			"name": "@christopherpaul/my-library",
+			"version": "0.0.1",
+			"description": "npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"packageManager": "yarn@3.2.0",
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-library@0.0.1",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-arp9Uk4GfUnn2WjQzVLIibjZsssWo4bbKqliU7CWwl6Eabwc+o3QAfUSTKeGxRZyBLKbGcAollsbQrQk3E51ZQ==",
+				"shasum": "99afaece23327bbb44433c4eacfd4077340a757d",
+				"tarball": "http://localhost:4873/@christopherpaul/my-library/-/@christopherpaul/my-library-0.0.1.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "@christopherpaul/my-library",
+			"version": "0.0.2",
+			"description": "npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"packageManager": "yarn@3.2.0",
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-library@0.0.2",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-rtatW6xHAzugbvo5tR+/sd4u96VBUUGTwjp7Jg/uGvge3bdgevfBGlTQIVvSQGUoqv1CBEzUL38D97Qn9ftWTA==",
+				"shasum": "56a8bd1f561516478e63c77882a802953414a211",
+				"tarball": "http://localhost:4873/@christopherpaul/my-library/-/@christopherpaul/my-library-0.0.2.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "@christopherpaul/my-library",
+			"version": "0.0.3",
+			"description": "npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"files": [
+				"dist/"
+			],
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"packageManager": "yarn@3.2.0",
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-library@0.0.3",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-Xd6nqtOzOY4EjNbOKFEz3Wek/hXZsnsVwmb4Q7trwig/tMUTuZ7tXgpsjsDqpZXYmNdIlGcBz5PeMW3BPIBwjA==",
+				"shasum": "fd0f8c0bf258fb23c2f088e535eeee7f9a10f2ac",
+				"tarball": "http://localhost:4873/@christopherpaul/my-library/-/@christopherpaul/my-library-0.0.3.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "@christopherpaul/my-library",
+			"version": "0.0.4",
+			"description": "npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"files": [
+				"dist/"
+			],
+			"main": "dist/index.js",
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"packageManager": "yarn@3.2.0",
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-library@0.0.4",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-S39IjPCGgHB0HSe4CvOtEnx6lUS444GCjBugKGqMkv24EsUCTVlu4h2IV83Yt8MwiCznFplhwSK0tJZqp/ad+g==",
+				"shasum": "c52a961922e06328c67d7f9153edf68b6d3060c4",
+				"tarball": "http://localhost:4873/@christopherpaul/my-library/-/@christopherpaul/my-library-0.0.4.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "@christopherpaul/my-library",
+			"version": "0.0.5",
+			"description": "npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"files": [
+				"dist/"
+			],
+			"main": "./dist/index.js",
+			"typings": "./dist/index.d.ts",
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"packageManager": "yarn@3.2.0",
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-library@0.0.5",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-tXASCaQ7swSXOlgmkVAYqLloTWfCOoLQzXEU8nLRogbqV8puZJAJ5+RNzadfxWYwQ4/WF8Z+yoG8EBCNvVEmUA==",
+				"shasum": "e15e53d5b074c1669a976d549d0fbea4c845d6e9",
+				"tarball": "http://localhost:4873/@christopherpaul/my-library/-/@christopherpaul/my-library-0.0.5.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-04-05T09:10:54.339Z",
+		"created": "2022-04-05T08:35:10.613Z",
+		"0.0.1": "2022-04-05T08:35:10.613Z",
+		"0.0.2": "2022-04-05T08:49:14.953Z",
+		"0.0.3": "2022-04-05T08:56:36.230Z",
+		"0.0.4": "2022-04-05T09:05:33.701Z",
+		"0.0.5": "2022-04-05T09:10:54.339Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.5"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"my-library-0.0.1.tgz": {
+			"shasum": "99afaece23327bbb44433c4eacfd4077340a757d",
+			"version": "0.0.1"
+		},
+		"my-library-0.0.2.tgz": {
+			"shasum": "56a8bd1f561516478e63c77882a802953414a211",
+			"version": "0.0.2"
+		},
+		"my-library-0.0.3.tgz": {
+			"shasum": "fd0f8c0bf258fb23c2f088e535eeee7f9a10f2ac",
+			"version": "0.0.3"
+		},
+		"my-library-0.0.4.tgz": {
+			"shasum": "c52a961922e06328c67d7f9153edf68b6d3060c4",
+			"version": "0.0.4"
+		},
+		"my-library-0.0.5.tgz": {
+			"shasum": "e15e53d5b074c1669a976d549d0fbea4c845d6e9",
+			"version": "0.0.5"
+		}
+	},
+	"_rev": "19-f0205f2798303e0e",
+	"_id": "@christopherpaul/my-library",
+	"readme": "# my-library\n\nnpm publish --registry http://localhost:4873/"
+}

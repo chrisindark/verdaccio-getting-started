@@ -1,0 +1,52 @@
+{
+	"name": "@christopherpaul/my-other-library",
+	"versions": {
+		"0.0.1": {
+			"name": "@christopherpaul/my-other-library",
+			"version": "0.0.1",
+			"description": "npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"packageManager": "yarn@3.2.0",
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-other-library@0.0.1",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-//5Y4rHQeTHjtRgcPAF3lrLp7lxbVKWz8bvG2X6SNnpKOliDVAXBEMnDXL+XkHLxOrighclpwsRAlcO8U7fx8A==",
+				"shasum": "db05ddd0404800978f02dc5b8318abd8233b6278",
+				"tarball": "http://localhost:4873/@christopherpaul/my-other-library/-/@christopherpaul/my-other-library-0.0.1.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-04-05T07:15:58.111Z",
+		"created": "2022-04-05T07:15:58.111Z",
+		"0.0.1": "2022-04-05T07:15:58.111Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.1"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"my-other-library-0.0.1.tgz": {
+			"shasum": "db05ddd0404800978f02dc5b8318abd8233b6278",
+			"version": "0.0.1"
+		}
+	},
+	"_rev": "4-53e43181d330ad36",
+	"_id": "@christopherpaul/my-other-library",
+	"readme": "# my-other-library\n\nnpm publish --registry http://localhost:4873/"
+}
