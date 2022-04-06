@@ -152,20 +152,58 @@
 				"tarball": "http://localhost:4873/@christopherpaul/my-library/-/@christopherpaul/my-library-0.0.5.tgz"
 			},
 			"contributors": []
+		},
+		"0.0.6": {
+			"name": "@christopherpaul/my-library",
+			"version": "0.0.6",
+			"description": "npm version major/minor/patch npm run build npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"build": "nest build my-library",
+				"bump:major": "npm version major",
+				"bump:minor": "npm version minor",
+				"bump:patch": "npm version patch",
+				"publish": "npm publish --registry http://localhost:4873/",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"files": [
+				"dist/"
+			],
+			"main": "./dist/index.js",
+			"typings": "./dist/index.d.ts",
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-library@0.0.6",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-94Z5RW6fcgBJnePeXGbOo1fq7caaaIQEXSicZZDor8KvdL5d7PP32nxUo2wab9HhQppCRsln7Gxqy/yAvaUUWA==",
+				"shasum": "fe448982d40dafbdda96a0d889c2c4047afc7f37",
+				"tarball": "http://localhost:4873/@christopherpaul/my-library/-/@christopherpaul/my-library-0.0.6.tgz"
+			},
+			"contributors": []
 		}
 	},
 	"time": {
-		"modified": "2022-04-05T09:10:54.339Z",
+		"modified": "2022-04-06T20:04:03.650Z",
 		"created": "2022-04-05T08:35:10.613Z",
 		"0.0.1": "2022-04-05T08:35:10.613Z",
 		"0.0.2": "2022-04-05T08:49:14.953Z",
 		"0.0.3": "2022-04-05T08:56:36.230Z",
 		"0.0.4": "2022-04-05T09:05:33.701Z",
-		"0.0.5": "2022-04-05T09:10:54.339Z"
+		"0.0.5": "2022-04-05T09:10:54.339Z",
+		"0.0.6": "2022-04-06T20:04:03.650Z"
 	},
 	"users": {},
 	"dist-tags": {
-		"latest": "0.0.5"
+		"latest": "0.0.6"
 	},
 	"_uplinks": {},
 	"_distfiles": {},
@@ -189,9 +227,13 @@
 		"my-library-0.0.5.tgz": {
 			"shasum": "e15e53d5b074c1669a976d549d0fbea4c845d6e9",
 			"version": "0.0.5"
+		},
+		"my-library-0.0.6.tgz": {
+			"shasum": "fe448982d40dafbdda96a0d889c2c4047afc7f37",
+			"version": "0.0.6"
 		}
 	},
-	"_rev": "19-f0205f2798303e0e",
+	"_rev": "23-e9c62136a40b85f9",
 	"_id": "@christopherpaul/my-library",
-	"readme": "# my-library\n\nnpm publish --registry http://localhost:4873/"
+	"readme": "# my-library\n\nnpm version major/minor/patch\nnpm run build\nnpm publish --registry http://localhost:4873/"
 }

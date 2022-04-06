@@ -27,16 +27,87 @@
 				"tarball": "http://localhost:4873/@christopherpaul/my-other-library/-/@christopherpaul/my-other-library-0.0.1.tgz"
 			},
 			"contributors": []
+		},
+		"0.0.2": {
+			"name": "@christopherpaul/my-other-library",
+			"version": "0.0.2",
+			"description": "npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"files": [
+				"dist/"
+			],
+			"main": "./dist/index.js",
+			"typings": "./dist/index.d.ts",
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"packageManager": "yarn@3.2.0",
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-other-library@0.0.2",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-3BlFENHqtlX7fK3OR1TimZ1SmcksXRS/FG4v3MG/RFFe08Lp5VPejpsCQoGtkFEQ/+L3n9ml90IxGRHVFQ41cg==",
+				"shasum": "5618e8ef05ef3f3c66cfb64e676a41c7d8f187c3",
+				"tarball": "http://localhost:4873/@christopherpaul/my-other-library/-/@christopherpaul/my-other-library-0.0.2.tgz"
+			},
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "@christopherpaul/my-other-library",
+			"version": "0.0.6",
+			"description": "npm version major/minor/patch npm run build npm publish --registry http://localhost:4873/",
+			"author": {
+				"name": "Christopher Paul",
+				"email": "chrisindark.notafraid@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"build": "nest build my-other-library",
+				"bump:major": "npm version major",
+				"bump:minor": "npm version minor",
+				"bump:patch": "npm version patch",
+				"publish": "npm publish --registry http://localhost:4873/",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"files": [
+				"dist/"
+			],
+			"main": "./dist/index.js",
+			"typings": "./dist/index.d.ts",
+			"engines": {
+				"node": ">= 14.0.0 <15"
+			},
+			"readmeFilename": "README.md",
+			"_id": "@christopherpaul/my-other-library@0.0.6",
+			"_nodeVersion": "14.18.2",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-uAXOX18Y1O9juiJVogGNbTFm/vYeSzgIj1Dxab3qDlQiR5NQGtHaikXJcyuPkjVWAIfQBR8fq0ocHC6JazfKJw==",
+				"shasum": "d278d99c4399d421d4fd27380335ecf960bd28e9",
+				"tarball": "http://localhost:4873/@christopherpaul/my-other-library/-/@christopherpaul/my-other-library-0.0.6.tgz"
+			},
+			"contributors": []
 		}
 	},
 	"time": {
-		"modified": "2022-04-05T07:15:58.111Z",
+		"modified": "2022-04-06T20:09:05.296Z",
 		"created": "2022-04-05T07:15:58.111Z",
-		"0.0.1": "2022-04-05T07:15:58.111Z"
+		"0.0.1": "2022-04-05T07:15:58.111Z",
+		"0.0.2": "2022-04-05T10:37:31.054Z",
+		"0.0.6": "2022-04-06T20:09:05.296Z"
 	},
 	"users": {},
 	"dist-tags": {
-		"latest": "0.0.1"
+		"latest": "0.0.6"
 	},
 	"_uplinks": {},
 	"_distfiles": {},
@@ -44,9 +115,17 @@
 		"my-other-library-0.0.1.tgz": {
 			"shasum": "db05ddd0404800978f02dc5b8318abd8233b6278",
 			"version": "0.0.1"
+		},
+		"my-other-library-0.0.2.tgz": {
+			"shasum": "5618e8ef05ef3f3c66cfb64e676a41c7d8f187c3",
+			"version": "0.0.2"
+		},
+		"my-other-library-0.0.6.tgz": {
+			"shasum": "d278d99c4399d421d4fd27380335ecf960bd28e9",
+			"version": "0.0.6"
 		}
 	},
-	"_rev": "4-53e43181d330ad36",
+	"_rev": "12-2e1767a2f514e760",
 	"_id": "@christopherpaul/my-other-library",
-	"readme": "# my-other-library\n\nnpm publish --registry http://localhost:4873/"
+	"readme": "# my-other-library\n\nnpm version major/minor/patch\nnpm run build\nnpm publish --registry http://localhost:4873/"
 }
